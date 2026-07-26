@@ -682,6 +682,7 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: block; }
   transition: border-color .2s ease, background-color .2s ease, transform .2s ease, color .2s ease;
 }
 .quiz-option:hover { border-color: var(--accent); transform: translateY(-2px); }
+.quiz-option-lg { grid-column: span 2; }
 .quiz-option.selected {
   border-color: var(--accent);
   background: var(--accent-soft);
