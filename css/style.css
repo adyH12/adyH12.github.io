@@ -192,10 +192,9 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: block; }
   display: flex;
   align-items: center;
   padding-top: var(--header-h);
-  overflow: hidden;
 }
 
-.hero-bg { position: absolute; inset: 0; z-index: 0; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
 .blob {
   position: absolute;
   border-radius: 50%;
