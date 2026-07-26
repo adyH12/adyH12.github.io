@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aday Hadad — Portfolio</title>
+<meta name="description" content="Portfolio von Aday Hadad — Schüler der Bezirksschule Suhr, Robotik- und Informatik-Enthusiast.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Aday<span>.</span></a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" class="nav-link">Über mich</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#gallery" class="nav-link">Galerie</a>
+      <a href="#experience" class="nav-link">Erfahrung</a>
+      <a href="#hobbies" class="nav-link">Hobbys</a>
+      <a href="#funfacts" class="nav-link">Fun Facts</a>
+      <a href="#quiz" class="nav-link">Quiz</a>
+      <a href="#contact" class="nav-link">Kontakt</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Hell-/Dunkelmodus umschalten">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-visual reveal">
+        <div class="hero-avatar">
+          <img src="img/optimized/aday-avatar.jpg" alt="Foto von Aday Hadad" width="320" height="320">
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">Schüler · Bezirksschule Suhr · 3. Klasse</p>
+        <h1 class="reveal">Hallo, ich bin <span class="highlight">Aday Hadad</span></h1>
+        <p class="hero-text reveal">
+          Ich bin 14 Jahre alt und begeistert von Informatik, Robotik, Programmieren und allem,
+          was mit Technik zu tun hat. Mit LEGO Spike baue und programmiere ich eigene Roboter,
+          drucke Objekte in 3D und habe meinen eigenen PC selbst zusammengebaut.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#gallery" class="btn btn-primary">Portfolio ansehen</a>
+          <a href="#contact" class="btn btn-ghost">Kontakt aufnehmen</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num">2.</span>
+            <span class="stat-label">Platz WRO Regionalmeisterschaft</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4</span>
+            <span class="stat-label">Sprachen</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">2×2–6×6</span>
+            <span class="stat-label">Rubik's Cubes auf Zeit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Nach unten scrollen">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-eyebrow reveal">Über mich</p>
+      <h2 class="section-title reveal">Wer ich bin</h2>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3><span class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5L12 4l10 5.5-10 5.5-10-5.5z"/><path d="M6 12v5c0 1.3 2.7 3 6 3s6-1.7 6-3v-5"/><path d="M20.5 9.5v6"/></svg></span> Schule</h3>
+          <ul class="plain-list">
+            <li><strong>2024 – heute</strong> · Bezirksschule Suhr, 3. Klasse</li>
+            <li><strong>2018 – 2024</strong> · Primarschule Suhr</li>
+            <li><strong>2016 – 2018</strong> · Kindergarten Suhr</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <h3><span class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span> Sprachen</h3>
+          <div class="tag-list">
+            <span class="tag tag-solid">Deutsch — Muttersprache</span>
+            <span class="tag tag-solid">Aramäisch — Muttersprache</span>
+            <span class="tag">Französisch — Schulkenntnisse</span>
+            <span class="tag">Englisch — Schulkenntnisse</span>
+          </div>
+        </div>
+
+        <div class="about-card reveal">
+          <h3><span class="mini-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/></svg></span> Standort</h3>
+          <p>Suhr, Kanton Aargau, Schweiz</p>
+          <p class="muted">Offen für eine Lehrstelle in der Region Aarau.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <p class="section-eyebrow reveal">Informatik &amp; Robotik</p>
+      <h2 class="section-title reveal">Was ich kann</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4z"/><path d="M7 5H4a1 1 0 0 0-1 1v1a4 4 0 0 0 4 4M17 5h3a1 1 0 0 1 1 1v1a4 4 0 0 1-4 4"/></svg>
+          </div>
+          <h3>World Robot Olympiad</h3>
+          <p>2. Platz an der Regionalmeisterschaft Muttenz 2024 und Teilnahme an der Schweizermeisterschaft.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="11" rx="2"/><path d="M12 8V4M9 4h6"/><circle cx="9" cy="13" r="1.1" fill="currentColor" stroke="none"/><circle cx="15" cy="13" r="1.1" fill="currentColor" stroke="none"/><path d="M9 16.5h6M2 12h2M20 12h2"/></svg>
+          </div>
+          <h3>Robotik-Begabtenförderung</h3>
+          <p>Roboter bauen und programmieren mit LEGO Spike, inklusive Blockprogrammierung.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 8 5 12 9 16"/><polyline points="15 8 19 12 15 16"/></svg>
+          </div>
+          <h3>Code Camps</h3>
+          <p>Regelmässige Teilnahme an Programmier-Camps von codecampworld.ch.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          </div>
+          <h3>PC-Bau</h3>
+          <p>Habe zusammen mit meinem Vater meinen eigenen Computer zusammengebaut.</p>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <h3>3D-Druck</h3>
+          <p>Eigene Objekte modellieren und drucken mit einem Bambu Lab Drucker.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <p class="section-eyebrow reveal">Galerie</p>
+      <h2 class="section-title reveal">Einblicke in meine Projekte</h2>
+
+      <div class="marquee reveal" id="marquee">
+        <div class="marquee-track" id="marqueeTrack">
+
+          <figure class="slide">
+            <img src="img/optimized/slide-01-preisverleihung.jpg" alt="Preisverleihung World Robot Olympiad" loading="lazy">
+            <figcaption>Preisverleihung an der World Robot Olympiad</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-02-roboter-bauen.jpg" alt="WRO Roboter bauen" loading="lazy">
+            <figcaption>Roboter für die World Robot Olympiad bauen</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-03-roboter-programmiert.jpg" alt="Roboter für WRO programmiert und konstruiert" loading="lazy">
+            <figcaption>Roboter programmiert und konstruiert</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-04-lego-mindstorms.jpg" alt="LEGO Mindstorms Robotik" loading="lazy">
+            <figcaption>Robotik mit LEGO Mindstorms</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-05-pc-bau.jpg" alt="Eigenen PC zusammengebaut" loading="lazy">
+            <figcaption>Meinen eigenen PC zusammengebaut</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-06-3d-druck.jpg" alt="3D-Druck eigener Objekte" loading="lazy">
+            <figcaption>Eigene Objekte am 3D-Drucker</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-07-rubiks-erstes-mal.jpg" alt="Erstes Mal Rubik's Cube gelöst" loading="lazy">
+            <figcaption>Der Moment, als ich den Rubik's Cube zum ersten Mal gelöst habe</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-08-rubiks-cube.jpg" alt="Rubik's Cube Training" loading="lazy">
+            <figcaption>Rubik's Cube Speedsolving-Training</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-09-rubiks-cube-2.jpg" alt="Rubik's Cube in verschiedenen Grössen" loading="lazy">
+            <figcaption>Rubik's Cubes in verschiedenen Grössen (2×2 bis 6×6)</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-10-zukunftstag.jpg" alt="Zukunftstag bei Informatik Aargau" loading="lazy">
+            <figcaption>Zukunftstag bei Informatik Aargau</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-11-wro-event.jpg" alt="World Robot Olympiad Wettkampftag" loading="lazy">
+            <figcaption>Am Wettkampftag der World Robot Olympiad</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-12-wro-event-2.jpg" alt="World Robot Olympiad Wettkampftag" loading="lazy">
+            <figcaption>Konzentration während des Wettbewerbs</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="img/optimized/slide-13-harry-potter-buecher.jpg" alt="Aday mit seiner Harry-Potter-Büchersammlung" loading="lazy">
+            <figcaption>Meine Harry-Potter-Büchersammlung</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Schliessen">&times;</button>
+    <button class="lightbox-btn lightbox-prev" id="lightboxPrev" aria-label="Vorheriges Bild">&#10094;</button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox-btn lightbox-next" id="lightboxNext" aria-label="Nächstes Bild">&#10095;</button>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <p class="section-eyebrow reveal">Erfahrung</p>
+      <h2 class="section-title reveal">Praxiserfahrung &amp; Zukunftstage</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Informatik Aargau, Unterentfelden</h3>
+            <p>Schnuppertag als Informatiker</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>ITSENSE AG, Aarau</h3>
+            <p>Schnupperlehre als Informatiker</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Eniwa, Aarau</h3>
+            <p>Schnupperlehre als Elektroinstallateur</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Hypothekarbank Lenzburg</h3>
+            <p>Schnuppernachmittag KV</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024 – 2025</span>
+            <h3>Zukunftstag</h3>
+            <p>Raiffeisenbank Erlinsbach und Informatik Aargau</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section class="section" id="hobbies">
+    <div class="container">
+      <p class="section-eyebrow reveal">Freizeit</p>
+      <h2 class="section-title reveal">Hobbys</h2>
+
+      <div class="hobbies-grid">
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 12V7a3 3 0 0 1 6 0v1a3 3 0 0 1 6 0v5a5 5 0 0 1-5 5h-2a6 6 0 0 1-6-6v-1a2 2 0 0 1 2-2"/><path d="M7 10.5v2"/></svg>
+          </div>
+          <h3>Jiu-Jitsu &amp; Kickboxen</h3>
+          <p>Training bei New Legacy Aarau.</p>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+          </div>
+          <h3>Rubik's Cubes</h3>
+          <p>Lösen auf Zeit, von 2×2 bis 6×6. Bestzeit beim 3×3: 43 Sekunden.</p>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H12v18H6.5A2.5 2.5 0 0 1 4 18.5v-13z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H12v18h5.5a2.5 2.5 0 0 0 2.5-2.5v-13z"/></svg>
+          </div>
+          <h3>Lesen</h3>
+          <p>Am liebsten Bücher rund um Technik und Abenteuer. Mit 9 Jahren hatte ich bereits alle Harry-Potter-Bücher gelesen.</p>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8l3.4 2.5-1.3 4H10l-1.3-4L12 8z"/><path d="M12 3v5M6.2 7.2l2.5 3.3M17.8 7.2l-2.5 3.3M7.3 18.8L10 14.5M16.7 18.8L14 14.5"/></svg>
+          </div>
+          <h3>Fussball</h3>
+          <p>In der Freizeit mit Freunden.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUN FACTS -->
+  <section class="section section-alt" id="funfacts">
+    <div class="container">
+      <p class="section-eyebrow reveal">Mehr über mich</p>
+      <h2 class="section-title reveal">Abseits vom Lebenslauf</h2>
+
+      <div class="hobbies-grid">
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18M7 6l3 4M13 6l3 4"/></svg>
+          </div>
+          <h3>Bücher, Filme &amp; Anime</h3>
+          <p>Harry Potter, One Piece, Marvel-Filme, Jujutsu Kaisen und die Zurück-in-die-Zukunft-Reihe.</p>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="9" rx="4"/><path d="M8 10.5v4M6 12.5h4"/><circle cx="16" cy="11" r="1" fill="currentColor" stroke="none"/><circle cx="18" cy="13" r="1" fill="currentColor" stroke="none"/></svg>
+          </div>
+          <h3>Gaming</h3>
+          <p>Minecraft, Indiana Jones: The Great Circle, FIFA, Rocket League und RollerCoaster Tycoon.</p>
+        </div>
+        <div class="hobby-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h16v3a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6v-3z"/><path d="M2 10h20M8 10V7a2 2 0 0 1 2-2M16 10V7a2 2 0 0 1-2-2"/></svg>
+          </div>
+          <h3>Kochen</h3>
+          <p>Was viele nicht wissen: Ich koche richtig gerne — vom Rezept ausprobieren bis zum fertigen Teller.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="section" id="quiz">
+    <div class="container">
+      <p class="section-eyebrow reveal">Interaktiv</p>
+      <h2 class="section-title reveal">Wie gut kennst du mich?</h2>
+      <p class="reveal quiz-intro">6 Fragen zu Schule, Hobbys, Lieblingsdingen und meiner Zukunft — finde heraus, wie gut du mich wirklich kennst.</p>
+
+      <form class="quiz reveal" id="quizForm" novalidate>
+
+        <div class="quiz-question" data-correct="1">
+          <h3>1. Wie viele Schnuppertage und Schnupperlehren hat Aday im Jahr 2026 gemacht?</h3>
+          <div class="quiz-options">
+            <button type="button" class="quiz-option">2</button>
+            <button type="button" class="quiz-option">4</button>
+            <button type="button" class="quiz-option">3</button>
+            <button type="button" class="quiz-option">5</button>
+          </div>
+        </div>
+
+        <div class="quiz-question" data-correct="3">
+          <h3>2. Wie viele unterschiedliche Rubik's-Cube-Grössen (von 2×2 bis 6×6) kann Aday lösen?</h3>
+          <div class="quiz-options">
+            <button type="button" class="quiz-option">6</button>
+            <button type="button" class="quiz-option">4</button>
+            <button type="button" class="quiz-option">3</button>
+            <button type="button" class="quiz-option">5</button>
+          </div>
+        </div>
+
+        <div class="quiz-question" data-correct="1">
+          <h3>3. Welches Hobby von Aday hat am wenigsten mit Technik oder Wettkampf zu tun?</h3>
+          <div class="quiz-options">
+            <button type="button" class="quiz-option">Jiu-Jitsu &amp; Kickboxen</button>
+            <button type="button" class="quiz-option">Kochen</button>
+            <button type="button" class="quiz-option">Robotik (WRO)</button>
+            <button type="button" class="quiz-option">Rubik's Cube</button>
+          </div>
+        </div>
+
+        <div class="quiz-question" data-correct="1">
+          <h3>4. Welche dieser Serien/Filme gehört NICHT zu Adays genannten Favoriten?</h3>
+          <div class="quiz-options">
+            <button type="button" class="quiz-option">Marvel-Filme</button>
+            <button type="button" class="quiz-option">Attack on Titan</button>
+            <button type="button" class="quiz-option">One Piece</button>
+            <button type="button" class="quiz-option">Jujutsu Kaisen</button>
+          </div>
+        </div>
+
+        <div class="quiz-question" data-correct="2">
+          <h3>5. Welches dieser Spiele gehört NICHT zu Adays Lieblingsspielen?</h3>
+          <div class="quiz-options">
+            <button type="button" class="quiz-option">Rocket League</button>
+            <button type="button" class="quiz-option">FIFA</button>
+            <button type="button" class="quiz-option">Fortnite</button>
+            <button type="button" class="quiz-option">Minecraft</button>
+          </div>
+        </div>
+
+        <div class="quiz-question" data-correct="2">
+          <h3>6. Was ist Adays Traumberuf?</h3>
+          <div class="quiz-options">
+            <button type="button" class="quiz-option">Elektroinstallateur</button>
+            <button type="button" class="quiz-option">Bankkaufmann</button>
+            <button type="button" class="quiz-option">Informatiker</button>
+            <button type="button" class="quiz-option">Pilot</button>
+          </div>
+        </div>
+
+        <p class="quiz-warning" id="quizWarning" hidden>Bitte beantworte zuerst alle Fragen.</p>
+        <button type="submit" class="btn btn-primary quiz-submit">Auswertung anzeigen</button>
+      </form>
+
+      <div class="quiz-result reveal" id="quizResult" hidden>
+        <p class="quiz-score" id="quizScore"></p>
+        <p class="quiz-message" id="quizMessage"></p>
+        <button type="button" class="btn btn-ghost" id="quizRetry">Nochmal versuchen</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-inner">
+      <p class="section-eyebrow reveal">Kontakt</p>
+      <h2 class="section-title reveal">Lust auf eine Lehrstelle oder eine Frage?</h2>
+      <p class="reveal contact-text">
+        Ich freue mich über eine Nachricht — sei es für eine Lehrstellen-Anfrage, ein Projekt
+        oder einfach um Hallo zu sagen. Referenzen und weitere Details gebe ich gerne
+        auf Anfrage weiter.
+      </p>
+      <a class="btn btn-primary reveal" href="mailto:aday.hadad12@gmail.com">✉️ aday.hadad12@gmail.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Aday Hadad · Neugier ist mein Antrieb — im Code, im Cube und im Alltag.</p>
+    <a href="#top" class="back-to-top">Nach oben ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

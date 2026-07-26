@@ -1,0 +1,6 @@
+.DS_Store
+
+# Unoptimized source photos — the site only uses img/optimized/*
+/img/*.jpg
+/img/*.jpeg
+/img/*.png
